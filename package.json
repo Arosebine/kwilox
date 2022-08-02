@@ -1,13 +1,13 @@
 {
   "name": "admin",
   "version": "1.0.0",
-  "description": "",
+  "description": "Kwilox restaurant Dashboard",
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/index.js"
   },
   "keywords": [],
-  "author": "seyi",
+  "author": "Ebine seyi",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.1",
