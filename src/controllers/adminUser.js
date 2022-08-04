@@ -79,7 +79,7 @@ exports.updateInputById = async (req, res) => {
     try {
         const { product_name, quantity_available, company_name } = req.body
         const user = await adminSchema.findOneAndUpdate({ InputById: req.params.id },
-            { ...req.body},
+            {product_name, quantity_available, company_name },
             { new: true }
             );
         

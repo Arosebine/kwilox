@@ -15,7 +15,6 @@ mongoDb();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true}));
-app.use(logger("dev"));
 
 
 
@@ -24,7 +23,6 @@ const port = process.env.PORT || 4500
 
 
 
-app.get("/", (req, res) => res.send("Home Page"));
 
 app.use("/admin", Userouter);
 app.get("*", (req, res) => {
