@@ -16,7 +16,7 @@ const port = process.env.PORT || 4500;
 
 app.use("/admin/drink", Userouter);
 app.get("/", (req, res) => {
-  res.render("index to Home page");
+  res.send("Welcome to Kwilox Admin Dashboard. You are Welcome admin. What do you want to do today?");
 });
 
 
