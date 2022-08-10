@@ -22,7 +22,7 @@ exports.addDrink = async (req, res) => {
 
     return res
       .status(201)
-      .json({ message: "Successfully Registered New Drink", save_newUser });
+      .json({ message: "You have successfully saved New Drink", save_newUser });
   } catch (error) {
     console.log(error);
     return res.status(500).json({ error: error.message });
