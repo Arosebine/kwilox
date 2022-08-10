@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 
 
 
-const adminSchema = new mongoose.Schema({
+const drinkSchema = new mongoose.Schema({
     drink_name: {
         type: String,
         required: true,
@@ -33,7 +33,7 @@ const adminSchema = new mongoose.Schema({
 
 
 
-module.exports = mongoose.model("Admin", adminSchema)
+module.exports = mongoose.model("Drink", drinkSchema)
 
 
 

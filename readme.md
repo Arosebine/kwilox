@@ -3,6 +3,7 @@
 
 
 - 🔭 I’m currently working on [kwilox restaurant admin Dashboard](https://documenter.getpostman.com/view/18447128/UzdxwjrH)
+- 🤝 I’m currently working on [kwilox restaurant admin on Heroku](https://documenter.getpostman.com/view/18447128/UzdxwjrH)
 
 The Stacks Used: 
 - nodejs
@@ -12,8 +13,6 @@ The Stacks Used:
 
 
 - 👯 I’m looking to collaborate on **google**
-
-- 🤝 I’m looking for help with **NestJS**
 
 - 💬 Ask me about **Node**
 
