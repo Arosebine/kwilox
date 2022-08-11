@@ -3,7 +3,7 @@
 
 
 - 🔭 I’m currently working on [kwilox restaurant admin Dashboard](https://documenter.getpostman.com/view/18447128/VUjQmQ3z)
-- 🤝 I’m currently working on [kwilox restaurant admin on Heroku](https://kwilox-admin.herokuapp.com/)
+- 🤝 I’m currently working on [kwilox restaurant admin on Heroku](https://kwiloxy.herokuapp.com/)
 
 The Stacks Used: 
 - nodejs
