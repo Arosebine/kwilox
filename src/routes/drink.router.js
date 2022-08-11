@@ -10,6 +10,7 @@ const {
     updateDrinkById,
 
 
+
 } = require("../controllers/drink.controller");
 const router = express.Router();
 
@@ -19,6 +20,7 @@ router.get('/', getAllDrinks);
 router.get("/:id", getDrinkById);
 router.delete("/:id", deleteDrinkById);
 router.put("/:id", updateDrinkById);
+
 
 
 
